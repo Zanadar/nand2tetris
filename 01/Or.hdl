@@ -4,6 +4,7 @@
 // File name: projects/01/Or.hdl
 
  /**
+ * Or = Nand(Not(a), Not(b))
  * Or gate:
  * out = 1 if (a == 1 or b == 1)
  *       0 otherwise
