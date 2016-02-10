@@ -1,0 +1,17 @@
+/* Truth Table:
+ *  A || outA | notA
+ *  ==================
+ *  0 ||  0   |  1
+ *  1 ||  1   |  0
+ *  */
+
+CHIP OneToTwoDecoder {
+    IN a;
+    OUT outA, notA;
+
+    PARTS:
+    Not(in=a, out=notOut);
+    Not(in=notOut, out=outA);
+    Not(in=a, out=notA);
+
+}
