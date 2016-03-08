@@ -58,8 +58,4 @@ CHIP ALU {
     Or(a=or8out1, b=or8out2, out=part1or2);
     Not(in=part1or2, out=zr);
 
-
-    //
-
-
 }
